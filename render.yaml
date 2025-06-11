@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: santi-tech-app
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn main:app
+    plan: free
